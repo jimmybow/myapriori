@@ -1,7 +1,7 @@
 # Myapriori
 
 *Myapriori* is a simple implementation of
-Apriori algorithm with Python 2.7 and 3.3 - 3.6,
+Apriori algorithm with Python 2.7 and 3.3 - 3.6.
 
 # Installing :
 ```
