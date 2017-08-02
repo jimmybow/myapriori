@@ -1,6 +1,6 @@
 #Apyori
 
-*Apyori* is a simple implementation of
+*myapriori* is a simple implementation of
 Apriori algorithm with Python 2.7 and 3.3 - 3.5,
 
 # Installing :
