@@ -12,9 +12,10 @@ pip install mydcc
 ```
 import myapriori
 import pandas as pd
+
 data = pd.DataFrame([{'性別':'男', '身高':'低'},{'性別':'女', '身高':'低'},{'性別':'男', '身高':'高'}])
-rule = myapriori.run(data = data, supp = 0.3, conf = 0.8,  lift = 1.3, maxlen = 2)
-rule
+rules = myapriori.run(data = data, supp = 0.3, conf = 0.8,  lift = 1.3, maxlen = 2)
+rules
 ```
 
 # Arguments:
