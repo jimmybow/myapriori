@@ -20,8 +20,8 @@ rule
 # Arguments:
 
 * data -- 原始資料，支援兩種資料格式: 
- * d_type = 'df' 一般資料表 (皆為類別欄位)
- * d_type = 'list' 交易資料集，格式為 list of list 或 array of list 
+  1. d_type = 'df' 一般資料表 (皆為類別欄位)
+  1. d_type = 'list' 交易資料集，格式為 list of list 或 array of list 
 * min_support -- The minimum support of relations (float).
 * min_confidence -- The minimum confidence of relations (float).
 * min_lift -- The minimum lift of relations (float).
