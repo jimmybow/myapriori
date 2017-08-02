@@ -7,6 +7,10 @@ A simple implementation of Apriori algorithm with Python 2.7 and 3.3 - 3.6
 pip install mydcc
 ```
 
+# requirements
+* pandas 
+* numpy
+
 # Usage :
 ```
 import myapriori
