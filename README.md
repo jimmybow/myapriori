@@ -22,7 +22,7 @@ rule
 * data -- 原始資料，支援兩種資料格式:
     * d_type = **'df'** -- Pandas 資料表 (皆為類別欄位)
     * d_type = **'list'** -- 交易資料集，可以是 list of list 或 array of list 
-* min_support -- The minimum support of relations (float).
-* min_confidence -- The minimum confidence of relations (float).
-* min_lift -- The minimum lift of relations (float).
-* max_length -- The maximum length of the relation (integer).
+* supp -- The minimum support of rules (float).
+* conf -- The minimum confidence of rules (float).
+* lift -- The minimum lift of rules (float).
+* maxlen -- The maximum length of rules (integer).
