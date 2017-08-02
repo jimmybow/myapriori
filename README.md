@@ -21,8 +21,8 @@ rule
 
 * data -- 原始資料
 * d_type -- 資料格式，支援以下兩種:
-    * d_type = **'df'** (defult) -- Pandas 資料表 (皆為類別欄位)
-    * d_type = **'list'** -- 交易資料集，可以是 list of list 或 array of list 
+    * d_type = **'df'**  -- Pandas 資料表 (皆為類別欄位)(Defult)
+    * d_type = **'list'** -- 交易資料集，可以是 list of list 或 array of list 
 * supp -- The minimum support of rules (float).
 * conf -- The minimum confidence of rules (float).
 * lift -- The minimum lift of rules (float).
