@@ -1,4 +1,4 @@
-# myapriori
+# Myapriori
 
 A simple implementation of Apriori algorithm with Python 2.7 and 3.3 - 3.6
 
@@ -7,7 +7,7 @@ A simple implementation of Apriori algorithm with Python 2.7 and 3.3 - 3.6
 pip install mydcc
 ```
 
-# requirements
+# Requirements
 * pandas 
 * numpy
 
@@ -23,8 +23,8 @@ rules
 ```
 ```
 data = [['性別=男', '身高=低'], ['性別=女', '身高=低'], ['性別=男', '身高=高']]
-rule = myapriori.run(data = data, supp = 0.06, conf = 0.75,  lift = 1.1, maxlen = 2, d_type='list')
-rule
+rules = myapriori.run(data = data, supp = 0.06, conf = 0.75,  lift = 1.1, maxlen = 2, d_type='list')
+rules
 ```
 
 # Arguments:
