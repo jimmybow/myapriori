@@ -20,6 +20,11 @@ data = pd.DataFrame([{'性別':'男', '身高':'低'},{'性別':'女', '身高':
 rules = myapriori.run(data = data, supp = 0.3, conf = 0.8,  lift = 1.3, maxlen = 2)
 rules
 ```
+```
+data = [['性別=男', '身高=低'], ['性別=女', '身高=低'], ['性別=男', '身高=高']]
+rule = myapriori.run(data = data, supp = 0.06, conf = 0.75,  lift = 1.1, maxlen = 2, d_type='list')
+rule
+```
 
 # Arguments:
 
