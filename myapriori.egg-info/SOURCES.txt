@@ -1,5 +1,6 @@
 apyori.py
 myapriori.py
+setup.cfg
 setup.py
 version.py
 myapriori.egg-info/PKG-INFO
