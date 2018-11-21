@@ -47,9 +47,7 @@ def run(data, supp, conf, lift, maxlen = 10, prefix_sep = '='):
 def df_to_trans(data, prefix_sep = '='):
   print(u'\n轉換原始 DataFrame 至 交易資料...') 
   start = time.clock()
-  trans = pd.get_dummies(data, sparse=True, prefix_sep = prefix_sep)
-  col = np.array(trans.columns) 
-  trans = np.array(list(map(lambda x: col[x==1] , trans.as_matrix())))
+  for col in data.columns: data[col] = col + prefix_sep + data[col]
   end = time.clock() 
   print(u'\n轉換完畢，耗時：%0.2f秒' %(end-start)) 
-  return trans
+  return data.values
